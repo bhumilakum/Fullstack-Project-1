@@ -5,7 +5,7 @@ import media
 
 ice_age = media.Movie("Ice Age",
                       "To save themselves, Sid, Manny, Diego, and the rest of the herd must leave their home and embark on a quest full of comedy and adventure.",
-                      "https://vignette.wikia.nocookie.net/iceage/images/9/94/Ice_Age_Original_Poster.jpg/revision/latest?cb=20100512224000",
+                      "http://www.impawards.com/2016/posters/ice_age_five_ver2.jpg",
                       "https://www.youtube.com/watch?v=Ohq6NmKMja8",
                       "Mike Thurmeier",
                       "-",

@@ -19,6 +19,7 @@ main_page_head = '''
     <style type="text/css" media="screen">
         body {
             padding-top: 80px;
+            background: #c9dfec;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
@@ -40,7 +41,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background-color: #cddadc;
             cursor: pointer;
         }
         .scale-media {
@@ -54,7 +55,7 @@ main_page_head = '''
             width: 100%;
             left: 0;
             top: 0;
-            background-color: white;
+            background-color: #e0e5e8;
         }
         .view-info{
             font-weight: bold;
@@ -155,7 +156,7 @@ movie_tile_content = '''
     <a href="#" class="view-info">View info</a>
     <div class="info-panel">
         <ul style="list-style-type:none;">
-            <li><b>Title : </b>{movie_title}</li>
+            <li><b>Title : </b>{movie_title}</li> 
             <li><b>Director : </b>{director}</li>
             <li><b>Film Series : </b>{film_series}</li>
             <li><b>Box Office : </b>{box_office}</li>
@@ -166,6 +167,8 @@ movie_tile_content = '''
 '''
 
 # this create_movie_tiles_content function generates single movie information block
+
+
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
     content = ''
