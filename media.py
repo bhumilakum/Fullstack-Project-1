@@ -13,10 +13,10 @@ class Movie:
     below by passing all required arguments.
 
     Syntax:
-    movie_name = media.Movie(movie_title, movie_story, movie_poster_img, 
+    movie_name = media.Movie(movie_title, movie_story, movie_poster_img,
         movie_youtube_url, director, film_series, box_office, budget)
 
-    Example: 
+    Example:
         ice_age = media.Movie("Ice Age",
                               "Example description",
                               "http://www.impawards.com/ice_age_five.jpg",
@@ -29,8 +29,8 @@ class Movie:
     The __init__() function initialize or construct the object of a class
     Movie by assigning value.
 
-    def __init__(self, movie_title, movie_story, movie_poster_img, 
-        movie_youtube_url, movie_director, movie_film_series, 
+    def __init__(self, movie_title, movie_story, movie_poster_img,
+        movie_youtube_url, movie_director, movie_film_series,
         movie_box_office, movie_budget):
         self.title = movie_title
         self.story_line = movie_story
@@ -43,9 +43,9 @@ class Movie:
 
     """
 
-    def __init__(self, movie_title, movie_story, movie_poster_img, 
-        movie_youtube_url, movie_director, movie_film_series, 
-        movie_box_office, movie_budget):
+    def __init__(self, movie_title, movie_story, movie_poster_img,
+                 movie_youtube_url, movie_director, movie_film_series,
+                 movie_box_office, movie_budget):
         self.title = movie_title
         self.story_line = movie_story
         self.poster_img = movie_poster_img
