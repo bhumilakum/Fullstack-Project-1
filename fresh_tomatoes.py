@@ -2,7 +2,6 @@ import webbrowser
 import os
 import re
 
-
 # Styles and scripting for the page
 main_page_head = '''
 <!DOCTYPE html>
@@ -166,10 +165,16 @@ movie_tile_content = '''
 </div>
 '''
 
-# this create_movie_tiles_content function generates single movie information block
-
 
 def create_movie_tiles_content(movies):
+    """This function generates single movie information block.
+
+    Args:
+        movies: An array of movie details.
+
+    Returns:
+        content: Returns a string created from the array 'movies'
+    """
     # The HTML content for this section of the page
     content = ''
     for movie in movies:
@@ -197,6 +202,14 @@ def create_movie_tiles_content(movies):
 
 # this open_movies_page function display movies on the page
 def open_movies_page(movies):
+    """ This function displays movies on the web page.
+
+    Args:
+        movies: An array of the movies with their details.
+
+    Returns:
+        output_file: Creates a file with HTML and opens it in the web browser.
+    """
     # Create or overwrite the output file
     output_file = open('movie_player.html', 'w')
 

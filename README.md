@@ -4,18 +4,18 @@ This project is a part of [Full Stack Web Developer Nanodegree Program](https://
 
 ## Table of contents
 
-* [Objective of Project](#objective-of-project)
-* [Project Data Structure](#project-data-structure)
-* [Project Files Details](#project-files-details)
-* [Download Project](#download-project)
-* [How to run Project](#how-to-run-project)
-* [Demo of Project](#demo-of-project)
+* [Objective of project](#objective-of-project)
+* [Project data structure](#project-data-structure)
+* [Project files details](#project-files-details)
+* [Download and setup project](#download-and-setup-project)
+* [How to run project](#how-to-run-project)
+* [Demo of project](#demo-of-project)
 
-## Objective of Project
+## Objective of project
 
 This project has the code to generate a static web page allowing visitors to browse their favorite movies and watch the trailers.
 
-## Project Data Structure
+## Project data structure
 
 This project uses object-oriented Python. So, there is a class Movie that acts as a template. This project creates instances of this class. Such as:
 
@@ -56,7 +56,7 @@ fresh_tomatoes.open_movies_page(movie_list)
 
 ```
 
-## Project Files Details
+## Project files details
 
 In this project, there are main 3 files which are :
 
@@ -66,11 +66,11 @@ In this project, there are main 3 files which are :
 
 The class Movie is defined within the file <span>media.</span>py and all instances of that class are defined within entertainment_center.py file. The fresh_tomatoes.py contains the open_movies_page() function that will take the list of movies and generate an HTML file to produce a website of your favorite movies.
 
-## Download Project
+## Download and setup project
 
-Download the zip file of the project to your computer or you can clone this repository.
+Download the zip file of the project to your computer or you can clone this repository. You can Google how to setup a python project.
 
-## How to run Project
+## How to run project
 
 Users can run this project by running below code on the command prompt.
 
@@ -78,7 +78,7 @@ Users can run this project by running below code on the command prompt.
 python entertainment_center.py
 ```
 
-## Demo of Project
+## Demo of project
 
 This is the actual display of the project where the poster images of all favorite movies are available.
 
